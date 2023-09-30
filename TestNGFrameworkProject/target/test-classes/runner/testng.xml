@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNG demo Suite">
+	<parameter name="browser" value="Chrome" />
+	<test name="TestNG demo Test cases">
+		<classes>
+			<class name="tests.LoginPageTest" />
+			<class name="tests.ProductListPageTest" />
+			<class name="tests.OverviewPageTest" />
+			<class name="tests.LogoutTest" />
+			<class name="tests.ShoppingCartPageTest" />
+			<class name="tests.CompletedPageTest" />
+			<class name="tests.ProductDetailPageTest" />
+			<class name="tests.InformationPageTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
